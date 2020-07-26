@@ -44,42 +44,61 @@
 </head>
 <body>
 
-		 <!-- header-start -->
-		 <header>
-			<div class="header-area ">
-				<div id="sticky-header" class="main-header-area">
-					<div class="container-fluid p-0">
-						<div class="row align-items-center no-gutters">
-							<div class="col-xl-2 col-lg-2">
-	
-								
-								<div class="logo-img">
-									<a href="index.html">
-										<img src="img/CMS_logo.png" alt="">
-									</a>
-								</div>
-								
-							</div>
-							<div class="col-xl-3 col-lg-3 d-none d-lg-block"></div>
-								<div class="main-menu  d-none d-lg-block">
-									<nav>
-										<ul id="navigation">
-											 <span style="padding-left:500px;"></span>
-											<li><a class="active" href="index.html">home</a></li>
-											<li><a href="about.html">About</a></li>
-											<li><a href="contact.html">Contact</a></li>
-										</ul>
-									</nav>
-								</div>
+<!-- header-start -->
+<header>
+	<div class="header-area ">
+		<div id="sticky-header" class="main-header-area">
+			<div class="container-fluid p-0">
+				<div class="row align-items-center no-gutters">
+					<div class="col-xl-2 col-lg-2"> 
+
+						<div class="logo-img">
+							<a href="http://localhost/CMS_Courier/welcomePage/welcome.html">
+								<img src="img/1.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-xl-7 col-lg-7">
+						<div class="main-menu  d-none d-lg-block">
+							<nav>
+								<ul id="navigation">
+									<emsp>
+										<span style="padding-left:500px;"></span>
+									<li><a href="http://localhost/CMS_Courier/welcomePage/welcome.html">home</a></li></emsp>
+									<span style="padding-left:10px;"></span>
+									<li><a href="http://localhost/CMS_Courier/welcomePage/about.html">About</a></li>
+									<span style="padding-left:10px;"></span>
+									<li><a href="http://localhost/CMS_Courier/welcomePage/contact.html">Contact</a></li>
+									
+								</ul>
+							</nav>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-lg-3 d-none d-lg-block">
+						<div class="log_chat_area d-flex align-items-center">
+
+							<div href="#test-form" class="login popup-with-form">
+
+							<div class="live_chat_btn" href="#test-form">
+								<a class="boxed_btn_orange" href="#test-form">
+									<i class="flaticon-user"></i>
+									<span>REGISTER</span>
+								</a>
 							</div>
 						</div>
+						</div>
+					</div>
+
+					<div class="col-12">
+						<div class="mobile_menu d-block d-lg-none"></div>
 					</div>
 				</div>
 			</div>
-			
-		</header>
-		<!-- header-end -->
-	
+		</div>
+	</div>
+</header>
+<!-- header-end -->    
 		<div class="slider_area ">
 			<div class="single_slider d-flex align-items-center justify-content-center slider_bg_1">
 				<div class="container">
@@ -103,7 +122,7 @@
 				<form class="login100-form validate-form" action="login.php" method="POST" >
 
 
-					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is reauired">
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is required">
 						<span class="label-input100"></span>
 						<input class="input100" type="text" name="uname" placeholder="Student/Staff ID">
 						<span class="focus-input100" data-symbol="&#xf206;"></span>
@@ -131,7 +150,7 @@
 							Not a member?
 						</span>
 
-						<a class="txt1 bo1 hov1" href="#">
+						<a class="txt1 bo1 hov1" href="http://localhost/CMS_Courier/USER/LOGIN/register.html">
 							Sign up now							
 						</a>
 						<br><br>
@@ -142,7 +161,33 @@
 			</div>
 		</div>
 	</div>
-	
+	<!-- form itself end-->
+    <form id="test-form" class="white-popup-block mfp-hide">
+        <div class="popup_box ">
+            <div class="popup_inner">
+                <div class="logo text-center">
+                    <a href="#">
+                        <img src="img/form-logo.png" alt="">
+                    </a>
+                </div>
+                <h3>Register As</h3>
+                <form>
+                    <div class="row">
+                        <div class="col-xl-12 col-md-12">
+                            <button formaction="http://localhost/CMS_Courier/USER/LOGIN/register.html"
+                                type="submit" class="boxed_btn_orange">User</button>
+                            <br><br>
+                   
+                            <button formaction="http://localhost/CMS_Courier/ADMIN/LOGIN/register.html"
+                            type="submit" class="boxed_btn_orange">Admin</button>
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </form>
+    <!-- form itself end -->
+   
 	
 
 	

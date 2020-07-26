@@ -27,7 +27,7 @@ echo ("<SCRIPT LANGUAGE='JavaScript'>
  Else {
  echo ("<SCRIPT LANGUAGE='JavaScript'>
  window.alert('Wrong username password combination.Please re-enter.')
- window.location.href='index.html'
+ window.location.href='login.html'
  </SCRIPT>");
  exit();
  }
